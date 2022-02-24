@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tommi-lew-learn/react-ion/issues"
   },
-  "homepage": "https://github.com/tommi-lew-learn/react-ion#readme"
+  "homepage": "https://github.com/tommi-lew-learn/react-ion#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
