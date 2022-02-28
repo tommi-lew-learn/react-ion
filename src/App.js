@@ -1,6 +1,7 @@
 import { useState, useEffect, StrictMode } from "react";
 import ReactDOM from "react-dom";
 import momentTZ from "moment-timezone";
+import CurrentTimes from "./CurrentTimes";
 
 const App = () => {
   const [timezones, setTimezones] = useState([]);
@@ -45,25 +46,7 @@ const App = () => {
         ))}
       </select>
 
-      <div className="timezones">
-        <table>
-          <thead>
-            <tr>
-              <th>Timezone</th>
-              <th>Current time</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            {Object.keys(currentTimes).map((tz) => (
-              <tr key={tz}>
-                <td>{tz}</td>
-                <td>{currentTimes[tz]}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <CurrentTimes currentTimes={currentTimes} />
     </div>
   );
 };
