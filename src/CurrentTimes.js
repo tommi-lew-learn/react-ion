@@ -6,8 +6,8 @@ const CurrentTimes = ({ currentTimes }) => {
       <table className="m-auto border">
         <thead>
           <tr>
-            <th>Timezone</th>
-            <th>Current time</th>
+            <th className="p-2 border">Timezone</th>
+            <th className="p-2 border">Current time</th>
           </tr>
         </thead>
 
