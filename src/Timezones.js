@@ -21,9 +21,7 @@ const Timezones = () => {
   }
 
   return (
-    <div
-      className="m-2 p-2 grid grid-cols-8"
-    >
+    <div className="m-2 p-2 grid grid-cols-8">
       <select
         className="m-2 p-2 col-start-4 col-span-2 rounded-sm cursor-pointer bg-gray-50 dark:bg-gray-900"
         id="timezones"
@@ -40,7 +38,11 @@ const Timezones = () => {
         }
       >
         {momentTZ.tz.names().map((tz) => (
-          <option className=" bg-gray-50 text-black dark:bg-gray-900 dark:text-white" value={tz} key={tz}>
+          <option
+            className=" bg-gray-50 text-black dark:bg-gray-900 dark:text-white"
+            value={tz}
+            key={tz}
+          >
             {tz}
           </option>
         ))}

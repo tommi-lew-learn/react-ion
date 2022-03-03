@@ -1,8 +1,6 @@
 const CurrentTimes = ({ currentTimes }) => {
   return (
-    <div
-      className="m-2 p-2 col-start-3 col-span-4"
-    >
+    <div className="m-2 p-2 col-start-3 col-span-4">
       <table className="m-auto border dark:text-white">
         <thead>
           <tr>
