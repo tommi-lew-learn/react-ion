@@ -1,6 +1,7 @@
 import { StrictMode, useEffect } from "react";
 import ReactDOM from "react-dom";
 import Timezones from "./Timezones";
+import DarkModeToggle from "./DarkModeToggle";
 
 const App = () => {
   useEffect(() => {
@@ -9,7 +10,8 @@ const App = () => {
   }, []);
 
   return (
-    <div className="m-2 p-2">
+    <div className="relative m-2 p-2">
+      <DarkModeToggle />
       <h1 className="p-2 text-center text-lg dark:text-white">React-ion</h1>
       <Timezones />
     </div>
