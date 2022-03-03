@@ -21,8 +21,11 @@ const Timezones = () => {
   }
 
   return (
-    <div>
+    <div
+      className="m-2 p-2 grid grid-cols-8"
+    >
       <select
+        className="m-2 p-2 col-start-4 col-span-2 rounded-sm cursor-pointer"
         id="timezones"
         multiple
         onChange={(e) =>
