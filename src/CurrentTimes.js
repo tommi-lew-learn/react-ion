@@ -3,7 +3,7 @@ const CurrentTimes = ({ currentTimes }) => {
     <div
       className="m-2 p-2 col-start-3 col-span-4"
     >
-      <table className="m-auto border">
+      <table className="m-auto border dark:text-white">
         <thead>
           <tr>
             <th className="p-2 border">Timezone</th>

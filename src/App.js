@@ -13,7 +13,7 @@ const App = () => {
       className="m-2 p-2"
     >
       <h1
-        className="p-2 text-center text-lg"
+        className="p-2 text-center text-lg dark:text-white"
       >
         React-ion
       </h1>
