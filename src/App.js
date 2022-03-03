@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="relative m-2 p-2">
       <DarkModeToggle />
-      <h1 className="p-2 text-center text-lg dark:text-white">React-ion</h1>
+      <h1 className="p-2 text-center text-lg dark:text-white">Reaction</h1>
       <Timezones />
     </div>
   );
